@@ -635,3 +635,39 @@ INFO: Finished all ingest tasks for tier 1 of ingest job (data source = E:, data
 INFO: Finished all ingest tasks for ingest job (data source = E:, data source object ID = 1, job ID = 0)
 2023-04-06 21:27:51.848 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
 INFO: Ingest job 0 completed at 1680796671848
+2023-04-06 22:19:58.583 org.sleuthkit.autopsy.report.ReportBranding getReportTitle
+INFO: Using default report branding for report title
+2023-04-06 22:23:11.208 org.sleuthkit.autopsy.report.ReportBranding getReportFooter
+INFO: Using default report branding for report footer
+2023-04-06 22:23:11.245 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Data Source Usage
+2023-04-06 22:23:11.247 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+WARNING: useDataTypeIcon: unhandled artifact type = Data Source Usage
+2023-04-06 22:23:11.249 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Files
+2023-04-06 22:23:11.25 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Images
+2023-04-06 22:23:11.254 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Results
+2023-04-06 23:59:19.465 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Stopping Solr 8 server
+2023-04-06 23:59:19.465 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Setting Solr 8 directory: C:\Program Files\Autopsy-4.20.0\autopsy\solr
+2023-04-06 23:59:19.465 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Running Solr 8 command: [C:\Program Files\Autopsy-4.20.0\autopsy\solr\bin\autopsy-solr.cmd, stop, -k, jjk#09s, -p, 23232] from C:\Program Files\Autopsy-4.20.0\autopsy\solr
+2023-04-06 23:59:19.496 org.sleuthkit.autopsy.keywordsearch.Server runLocalSolr8ControlCommand
+INFO: Finished running Solr 8 command
+2023-04-06 23:59:19.496 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Waiting for Solr server to stop
+2023-04-06 23:59:20.413 org.sleuthkit.autopsy.keywordsearch.Server stopLocalSolr
+INFO: Finished stopping Solr server
+2023-04-06 23:59:20.413 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2023-04-06 23:59:20.439 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case USB-Driver (usb-driver_20230406_211658) in C:\Users\prakh\OneDrive\Desktop\Autopsy\USB-Driver
+2023-04-06 23:59:22.45 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case USB-Driver (usb-driver_20230406_211658)
+2023-04-06 23:59:22.456 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2023-04-06 23:59:22.458 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case USB-Driver (usb-driver_20230406_211658)
