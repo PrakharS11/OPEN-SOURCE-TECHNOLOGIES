@@ -1,0 +1,637 @@
+2023-04-06 21:16:58.894 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2023-04-06 21:16:58.919 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2023-04-06 21:16:58.925 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2023-04-06 21:16:58.925 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2023-04-06 21:16:58.928 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2023-04-06 21:17:00.049 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2023-04-06 21:17:00.154 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2023-04-06 21:17:00.266 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.36.0.3 loaded in native mode
+2023-04-06 21:17:00.315 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened USB-Driver (usb-driver_20230406_211658) in C:\Users\prakh\OneDrive\Desktop\Autopsy\USB-Driver as the current case
+2023-04-06 21:17:00.481 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2023-04-06 21:17:00.904 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-06 21:17:01.192 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-04-06 21:17:01.4 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2023-04-06 21:17:01.546 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.20.0
+2023-04-06 21:17:01.558 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.20.0
+2023-04-06 21:17:01.568 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.20.0
+2023-04-06 21:17:01.578 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.20.0
+2023-04-06 21:17:01.58 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.20.0
+2023-04-06 21:17:01.591 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.20.0
+2023-04-06 21:17:01.603 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.20.0
+2023-04-06 21:17:01.614 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.20.0
+2023-04-06 21:17:01.614 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.20.0
+2023-04-06 21:17:01.625 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.20.0
+2023-04-06 21:17:01.625 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.20.0
+2023-04-06 21:17:01.635 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2023-04-06 21:17:01.645 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.20.0
+2023-04-06 21:17:01.655 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.20.0
+2023-04-06 21:17:01.666 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.20.0
+2023-04-06 21:17:01.675 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.20.0
+2023-04-06 21:17:01.679 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.20.0
+2023-04-06 21:17:01.68 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.20.0
+2023-04-06 21:17:01.682 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.20.0
+2023-04-06 21:17:01.735 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2023-04-06 21:17:01.735 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.20.0
+2023-04-06 21:27:42.664 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2023-04-06 21:27:42.664 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1680796662664
+2023-04-06 21:27:42.669 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2023-04-06 21:27:42.799 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2023-04-06 21:27:43.119 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file batch mode (data source = E:, data source object ID = 1, job ID = 0)
+2023-04-06 21:27:43.123 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of E: starting
+2023-04-06 21:27:43.146 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2023-04-06 21:27:43.202 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.203 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.204 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.205 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.205 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.206 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.207 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2023-04-06 21:27:43.209 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2023-04-06 21:27:43.209 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2023-04-06 21:27:43.209 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2023-04-06 21:27:43.209 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2023-04-06 21:27:43.211 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2023-04-06 21:27:43.211 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2023-04-06 21:27:43.211 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2023-04-06 21:27:43.212 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2023-04-06 21:27:43.214 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2023-04-06 21:27:43.214 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\prakh\AppData\Local\Temp\Autopsy\usb-driver_20230406_211658\Temp\RecentActivity\IE_0\results
+2023-04-06 21:27:43.214 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.20.0\autopsy\pasco2
+2023-04-06 21:27:43.215 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2023-04-06 21:27:43.217 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2023-04-06 21:27:43.218 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2023-04-06 21:27:43.218 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2023-04-06 21:27:43.218 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 0 blackboard artifacts.
+2023-04-06 21:27:43.219 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2023-04-06 21:27:43.523 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 0 blackboard artifacts.
+2023-04-06 21:27:43.523 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 0 distinct messaging domain(s) from the blackboard.  Of the 0 artifact(s) with valid hosts, 0 url(s) contained messaging domain suffix.
+2023-04-06 21:27:43.523 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of E: finished
+2023-04-06 21:27:48.472 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 5)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.473 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 2)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.473 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 14)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.473 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 11)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.473 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.473 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462922)) (tsk_fs_attr_read_type: offset: 7759462922  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 2)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 2)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 2)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.474 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462400)) (tsk_fs_attr_read_type: offset: 7759462400  Len: 4)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:48.475 org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature containedIn
+WARNING: Error reading from file with objId = 3297
+org.sleuthkit.datamodel.TskCoreException: Error reading image file (tsk_fs_read: Offset is too large for image: 7759462408)) (tsk_fs_attr_read_type: offset: 7759462408  Len: 24)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFileNat(Native Method)
+	org.sleuthkit.datamodel.SleuthkitJNI.readFile(SleuthkitJNI.java:1495)
+	org.sleuthkit.datamodel.FsContent.readInt(FsContent.java:185)
+	org.sleuthkit.datamodel.AbstractFile.read(AbstractFile.java:1048)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType$Signature.containedIn(FileType.java:352)
+	org.sleuthkit.autopsy.modules.filetypeid.FileType.matches(FileType.java:138)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.detectAutopsyDefinedType(FileTypeDetector.java:393)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeDetector.getMIMEType(FileTypeDetector.java:231)
+	org.sleuthkit.autopsy.modules.filetypeid.FileTypeIdIngestModule.process(FileTypeIdIngestModule.java:105)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:208)
+	org.sleuthkit.autopsy.ingest.FileIngestPipeline$FileIngestPipelineModule.process(FileIngestPipeline.java:182)
+	org.sleuthkit.autopsy.ingest.IngestPipeline.performTask(IngestPipeline.java:217)
+	org.sleuthkit.autopsy.ingest.IngestJobExecutor.execute(IngestJobExecutor.java:619)
+	org.sleuthkit.autopsy.ingest.FileIngestTask.execute(FileIngestTask.java:94)
+	org.sleuthkit.autopsy.ingest.IngestManager$ExecuteIngestJobTasksTask.run(IngestManager.java:1121)
+	java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2023-04-06 21:27:51.826 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = E:, data source object ID = 1, job ID = 0)
+2023-04-06 21:27:51.845 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = E:, data source object ID = 1, job ID = 0)
+2023-04-06 21:27:51.845 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = E:, data source object ID = 1, job ID = 0)
+2023-04-06 21:27:51.846 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = E:, data source object ID = 1, job ID = 0)
+2023-04-06 21:27:51.848 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed at 1680796671848

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2023/04/06 21:16:58 (IST)</CreatedDate>
+  <ModifiedDate>2023/04/06 21:16:58 (IST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.20.0</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.20.0</SavedByAutopsyVersion>
+  <Case>
+    <Name>usb-driver_20230406_211658</Name>
+    <DisplayName>USB-Driver</DisplayName>
+    <Number>001</Number>
+    <Examiner>Prakhar Srivastava</Examiner>
+    <ExaminerPhone/>
+    <ExaminerEmail>prakharsahai21@gmail.com</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase/>
+</AutopsyCase>
